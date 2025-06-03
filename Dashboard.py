@@ -6,7 +6,7 @@ import seaborn as sns
 st.set_page_config(page_title="Dashboard", layout="wide")
 
 # Judul
-st.title("📊 Dashboard Analisis Ulasan Pengguna Shopee")
+st.title("📊 Dashboard Data Ulasan Pengguna Shopee tentang COD")
 
 # Load data
 @st.cache_data
