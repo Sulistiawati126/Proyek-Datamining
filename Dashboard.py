@@ -11,7 +11,7 @@ st.title("📊 Dashboard Analisis Ulasan Pengguna Shopee")
 # Load data
 @st.cache_data
 def load_data():
-    df = pd.read_csv("data/ulasan_shopee.csv")
+    df = pd.read_csv("Data ulasan Shopee tentang COD.csv")
     return df
 
 df = load_data()
