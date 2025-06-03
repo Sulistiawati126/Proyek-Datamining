@@ -12,7 +12,10 @@ def load_data():
     df=df.head(1840)
     return df
 
-df = load_data()
+df = load_data():
+
+st.write("Jumlah baris dataset:", df.shape[0])
+st.write("Jumlah kolom dataset:", df.shape[1])
 
 # --- Tampilkan judul dan data mentah ---
 st.title("📊 Dashboard Analisis Ulasan Shopee")
