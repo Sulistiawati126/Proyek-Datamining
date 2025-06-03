@@ -14,6 +14,9 @@ def load_data():
 
 df = load_data()
 
+st.write("Jumlah baris dan kolom:", df.shape)
+st.dataframe(df)
+
 # --- Tampilkan judul dan data mentah ---
 st.title("📊 Dashboard Analisis Ulasan Shopee")
 st.subheader("Data Mentah")
