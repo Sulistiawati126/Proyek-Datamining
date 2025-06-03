@@ -9,6 +9,7 @@ st.set_page_config(page_title="Dashboard Ulasan Shopee", layout="wide")
 @st.cache_data
 def load_data():
     df = pd.read_csv("Data ulasan Shopee tentang COD.csv")
+    df.head(1160)
     return df
 
 df = load_data()
